@@ -8,4 +8,4 @@ class Movie(models.Model):
     active = models.BooleanField(default=True)
 
     def _str_(self):
-        return self.name 
+        return self.name 
